@@ -21,7 +21,7 @@ Compared against a **0.5–40 Hz Butterworth band-pass** and **wavelet denoising
 
 Open MATLAB in this folder, then:
 
-| Step | Script | What it does | Time |
+| Step | Script | What it does 
 |---|---|---|---|
 | 1 | `prepare_dataset` | Reads raw PhysioNet files in `data/raw/` → `data/ecg_dataset.mat` 
 | 2 | `tune_parameters` | Grid-search of EKF process noise on **TRAIN** data → `results/tuned_params.mat` 
