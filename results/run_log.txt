@@ -1,0 +1,116 @@
+qa=0.050  qth=0.010  qeta=0.0010  ->  mean EKS SNR 12.44 dB
+qa=0.050  qth=0.010  qeta=0.0020  ->  mean EKS SNR 12.03 dB
+qa=0.050  qth=0.010  qeta=0.0050  ->  mean EKS SNR 11.28 dB
+qa=0.050  qth=0.010  qeta=0.0100  ->  mean EKS SNR 10.63 dB
+qa=0.050  qth=0.020  qeta=0.0010  ->  mean EKS SNR 12.48 dB
+qa=0.050  qth=0.020  qeta=0.0020  ->  mean EKS SNR 12.09 dB
+qa=0.050  qth=0.020  qeta=0.0050  ->  mean EKS SNR 11.33 dB
+qa=0.050  qth=0.020  qeta=0.0100  ->  mean EKS SNR 10.65 dB
+qa=0.050  qth=0.050  qeta=0.0010  ->  mean EKS SNR 12.21 dB
+qa=0.050  qth=0.050  qeta=0.0020  ->  mean EKS SNR 11.88 dB
+qa=0.050  qth=0.050  qeta=0.0050  ->  mean EKS SNR 11.20 dB
+qa=0.050  qth=0.050  qeta=0.0100  ->  mean EKS SNR 10.55 dB
+qa=0.100  qth=0.010  qeta=0.0010  ->  mean EKS SNR 12.45 dB
+qa=0.100  qth=0.010  qeta=0.0020  ->  mean EKS SNR 12.05 dB
+qa=0.100  qth=0.010  qeta=0.0050  ->  mean EKS SNR 11.29 dB
+qa=0.100  qth=0.010  qeta=0.0100  ->  mean EKS SNR 10.63 dB
+qa=0.100  qth=0.020  qeta=0.0010  ->  mean EKS SNR 12.48 dB
+qa=0.100  qth=0.020  qeta=0.0020  ->  mean EKS SNR 12.08 dB
+qa=0.100  qth=0.020  qeta=0.0050  ->  mean EKS SNR 11.33 dB
+qa=0.100  qth=0.020  qeta=0.0100  ->  mean EKS SNR 10.65 dB
+qa=0.100  qth=0.050  qeta=0.0010  ->  mean EKS SNR 12.20 dB
+qa=0.100  qth=0.050  qeta=0.0020  ->  mean EKS SNR 11.87 dB
+qa=0.100  qth=0.050  qeta=0.0050  ->  mean EKS SNR 11.20 dB
+qa=0.100  qth=0.050  qeta=0.0100  ->  mean EKS SNR 10.55 dB
+qa=0.200  qth=0.010  qeta=0.0010  ->  mean EKS SNR 12.46 dB
+qa=0.200  qth=0.010  qeta=0.0020  ->  mean EKS SNR 12.05 dB
+qa=0.200  qth=0.010  qeta=0.0050  ->  mean EKS SNR 11.30 dB
+qa=0.200  qth=0.010  qeta=0.0100  ->  mean EKS SNR 10.64 dB
+qa=0.200  qth=0.020  qeta=0.0010  ->  mean EKS SNR 12.45 dB
+qa=0.200  qth=0.020  qeta=0.0020  ->  mean EKS SNR 12.06 dB
+qa=0.200  qth=0.020  qeta=0.0050  ->  mean EKS SNR 11.32 dB
+qa=0.200  qth=0.020  qeta=0.0100  ->  mean EKS SNR 10.64 dB
+qa=0.200  qth=0.050  qeta=0.0010  ->  mean EKS SNR 12.19 dB
+qa=0.200  qth=0.050  qeta=0.0020  ->  mean EKS SNR 11.86 dB
+qa=0.200  qth=0.050  qeta=0.0050  ->  mean EKS SNR 11.19 dB
+qa=0.200  qth=0.050  qeta=0.0100  ->  mean EKS SNR 10.54 dB
+
+Best: qa=0.050 qth=0.020 qeta=0.0010 (mean EKS SNR 12.48 dB)
+Using tuned parameters from C:\Users\Luchitha\Downloads\Signal_estimation\results\tuned_params.mat
+Record 100: nst S = 0.2686 mV^2, 76 beats in test segment
+Record 103: nst S = 0.7346 mV^2, 70 beats in test segment
+Demo (ma+bw, 5 dB): output SNR  BP 0.00 | WT 0.75 | EKF 9.14 | EKS 10.48 dB
+rec 100 ma      -5.0 dB  out-SNR: BP -11.96 WT -12.03 EKF -5.40 EKS -2.89  (Se 0.12 PPV 0.23)
+rec 100 ma      -2.5 dB  out-SNR: BP -9.47 WT -9.53 EKF -3.95 EKS -1.45  (Se 0.25 PPV 0.41)
+rec 100 ma       0.0 dB  out-SNR: BP -6.99 WT -7.04 EKF -1.79 EKS  0.43  (Se 0.56 PPV 0.67)
+rec 100 ma       2.5 dB  out-SNR: BP -4.52 WT -4.55 EKF  1.16 EKS  2.94  (Se 0.87 PPV 0.80)
+rec 100 ma       5.0 dB  out-SNR: BP -2.08 WT -2.08 EKF  4.50 EKS  5.93  (Se 0.96 PPV 0.87)
+rec 100 ma       7.5 dB  out-SNR: BP  0.32 WT  0.40 EKF  7.43 EKS  8.89  (Se 0.99 PPV 0.95)
+rec 100 ma      10.0 dB  out-SNR: BP  2.65 WT  2.87 EKF  9.56 EKS 11.04  (Se 1.00 PPV 0.98)
+rec 100 ma      12.5 dB  out-SNR: BP  4.87 WT  5.25 EKF 11.39 EKS 12.73  (Se 1.00 PPV 0.99)
+rec 100 ma      15.0 dB  out-SNR: BP  6.94 WT  7.56 EKF 12.82 EKS 13.89  (Se 1.00 PPV 1.00)
+rec 100 ma      17.5 dB  out-SNR: BP  8.77 WT  9.68 EKF 14.03 EKS 14.88  (Se 1.00 PPV 1.00)
+rec 100 ma      20.0 dB  out-SNR: BP 10.32 WT 11.59 EKF 15.10 EKS 15.76  (Se 1.00 PPV 1.00)
+rec 100 bw      -5.0 dB  out-SNR: BP  1.00 WT  1.50 EKF  4.41 EKS  6.77  (Se 0.95 PPV 0.93)
+rec 100 bw      -2.5 dB  out-SNR: BP  3.20 WT  3.73 EKF  6.71 EKS  8.71  (Se 0.98 PPV 0.97)
+rec 100 bw       0.0 dB  out-SNR: BP  5.24 WT  5.85 EKF  8.53 EKS 10.17  (Se 0.99 PPV 0.98)
+rec 100 bw       2.5 dB  out-SNR: BP  7.09 WT  7.82 EKF 10.36 EKS 11.65  (Se 1.00 PPV 0.99)
+rec 100 bw       5.0 dB  out-SNR: BP  8.69 WT  9.63 EKF 11.67 EKS 12.60  (Se 1.00 PPV 0.99)
+rec 100 bw       7.5 dB  out-SNR: BP 10.03 WT 11.23 EKF 13.35 EKS 14.01  (Se 1.00 PPV 1.00)
+rec 100 bw      10.0 dB  out-SNR: BP 11.11 WT 12.64 EKF 14.29 EKS 14.77  (Se 1.00 PPV 1.00)
+rec 100 bw      12.5 dB  out-SNR: BP 11.95 WT 13.79 EKF 15.18 EKS 15.52  (Se 1.00 PPV 1.00)
+rec 100 bw      15.0 dB  out-SNR: BP 12.57 WT 14.73 EKF 15.83 EKS 16.12  (Se 1.00 PPV 1.00)
+rec 100 bw      17.5 dB  out-SNR: BP 13.04 WT 15.48 EKF 16.39 EKS 16.64  (Se 1.00 PPV 1.00)
+rec 100 bw      20.0 dB  out-SNR: BP 13.37 WT 16.06 EKF 16.84 EKS 17.08  (Se 1.00 PPV 1.00)
+rec 100 ma+bw   -5.0 dB  out-SNR: BP -9.25 WT -9.01 EKF -3.92 EKS -1.67  (Se 0.27 PPV 0.42)
+rec 100 ma+bw   -2.5 dB  out-SNR: BP -6.78 WT -6.54 EKF -1.46 EKS  0.77  (Se 0.63 PPV 0.68)
+rec 100 ma+bw    0.0 dB  out-SNR: BP -4.31 WT -4.07 EKF  1.35 EKS  3.27  (Se 0.88 PPV 0.82)
+rec 100 ma+bw    2.5 dB  out-SNR: BP -1.88 WT -1.62 EKF  4.54 EKS  5.95  (Se 0.96 PPV 0.89)
+rec 100 ma+bw    5.0 dB  out-SNR: BP  0.51 WT  0.84 EKF  7.63 EKS  9.19  (Se 1.00 PPV 0.96)
+rec 100 ma+bw    7.5 dB  out-SNR: BP  2.82 WT  3.25 EKF  9.68 EKS 11.15  (Se 1.00 PPV 0.98)
+rec 100 ma+bw   10.0 dB  out-SNR: BP  5.01 WT  5.59 EKF 11.38 EKS 12.67  (Se 1.00 PPV 1.00)
+rec 100 ma+bw   12.5 dB  out-SNR: BP  7.04 WT  7.83 EKF 12.65 EKS 13.66  (Se 1.00 PPV 1.00)
+rec 100 ma+bw   15.0 dB  out-SNR: BP  8.83 WT  9.88 EKF 13.78 EKS 14.56  (Se 1.00 PPV 1.00)
+rec 100 ma+bw   17.5 dB  out-SNR: BP 10.33 WT 11.71 EKF 14.81 EKS 15.41  (Se 1.00 PPV 1.00)
+rec 100 ma+bw   20.0 dB  out-SNR: BP 11.53 WT 13.25 EKF 15.70 EKS 16.16  (Se 1.00 PPV 1.00)
+rec 103 ma      -5.0 dB  out-SNR: BP -10.95 WT -11.02 EKF -5.15 EKS -2.58  (Se 0.14 PPV 0.23)
+rec 103 ma      -2.5 dB  out-SNR: BP -8.47 WT -8.53 EKF -3.07 EKS -1.23  (Se 0.39 PPV 0.49)
+rec 103 ma       0.0 dB  out-SNR: BP -6.01 WT -6.06 EKF -0.47 EKS  1.64  (Se 0.79 PPV 0.73)
+rec 103 ma       2.5 dB  out-SNR: BP -3.56 WT -3.58 EKF  2.13 EKS  3.70  (Se 0.93 PPV 0.80)
+rec 103 ma       5.0 dB  out-SNR: BP -1.16 WT -1.11 EKF  4.55 EKS  6.29  (Se 0.98 PPV 0.88)
+rec 103 ma       7.5 dB  out-SNR: BP  1.18 WT  1.33 EKF  7.03 EKS  8.94  (Se 0.99 PPV 0.95)
+rec 103 ma      10.0 dB  out-SNR: BP  3.42 WT  3.73 EKF  9.43 EKS 11.53  (Se 0.99 PPV 0.98)
+rec 103 ma      12.5 dB  out-SNR: BP  5.49 WT  6.03 EKF 11.31 EKS 13.17  (Se 1.00 PPV 1.00)
+rec 103 ma      15.0 dB  out-SNR: BP  7.35 WT  8.21 EKF 12.83 EKS 14.33  (Se 0.99 PPV 1.00)
+rec 103 ma      17.5 dB  out-SNR: BP  8.93 WT 10.21 EKF 14.25 EKS 15.54  (Se 0.99 PPV 1.00)
+rec 103 ma      20.0 dB  out-SNR: BP 10.19 WT 11.98 EKF 15.47 EKS 16.62  (Se 0.99 PPV 1.00)
+rec 103 bw      -5.0 dB  out-SNR: BP  1.62 WT  2.15 EKF  4.84 EKS  7.03  (Se 0.97 PPV 0.93)
+rec 103 bw      -2.5 dB  out-SNR: BP  3.60 WT  4.19 EKF  6.65 EKS  8.81  (Se 0.99 PPV 0.97)
+rec 103 bw       0.0 dB  out-SNR: BP  5.39 WT  6.09 EKF  8.24 EKS  9.93  (Se 0.99 PPV 0.98)
+rec 103 bw       2.5 dB  out-SNR: BP  6.94 WT  7.81 EKF  9.61 EKS 11.02  (Se 0.99 PPV 0.99)
+rec 103 bw       5.0 dB  out-SNR: BP  8.27 WT  9.38 EKF 10.83 EKS 12.01  (Se 0.99 PPV 0.99)
+rec 103 bw       7.5 dB  out-SNR: BP  9.37 WT 10.76 EKF 12.44 EKS 13.51  (Se 0.99 PPV 1.00)
+rec 103 bw      10.0 dB  out-SNR: BP 10.26 WT 11.98 EKF 13.54 EKS 14.52  (Se 0.99 PPV 1.00)
+rec 103 bw      12.5 dB  out-SNR: BP 10.95 WT 13.07 EKF 14.56 EKS 15.47  (Se 0.99 PPV 1.00)
+rec 103 bw      15.0 dB  out-SNR: BP 11.50 WT 14.00 EKF 15.49 EKS 16.36  (Se 0.99 PPV 1.00)
+rec 103 bw      17.5 dB  out-SNR: BP 11.91 WT 14.75 EKF 16.34 EKS 17.16  (Se 0.99 PPV 1.00)
+rec 103 bw      20.0 dB  out-SNR: BP 12.22 WT 15.35 EKF 17.07 EKS 17.87  (Se 0.99 PPV 1.00)
+rec 103 ma+bw   -5.0 dB  out-SNR: BP -8.28 WT -8.04 EKF -2.66 EKS -0.50  (Se 0.45 PPV 0.53)
+rec 103 ma+bw   -2.5 dB  out-SNR: BP -5.82 WT -5.59 EKF -0.40 EKS  1.66  (Se 0.80 PPV 0.75)
+rec 103 ma+bw    0.0 dB  out-SNR: BP -3.39 WT -3.14 EKF  2.17 EKS  4.17  (Se 0.94 PPV 0.81)
+rec 103 ma+bw    2.5 dB  out-SNR: BP -1.01 WT -0.71 EKF  4.70 EKS  6.69  (Se 0.98 PPV 0.90)
+rec 103 ma+bw    5.0 dB  out-SNR: BP  1.30 WT  1.69 EKF  6.90 EKS  9.03  (Se 0.99 PPV 0.95)
+rec 103 ma+bw    7.5 dB  out-SNR: BP  3.50 WT  4.03 EKF  9.00 EKS 11.15  (Se 0.99 PPV 0.99)
+rec 103 ma+bw   10.0 dB  out-SNR: BP  5.53 WT  6.26 EKF 10.72 EKS 12.58  (Se 1.00 PPV 1.00)
+rec 103 ma+bw   12.5 dB  out-SNR: BP  7.33 WT  8.33 EKF 12.11 EKS 13.67  (Se 1.00 PPV 1.00)
+rec 103 ma+bw   15.0 dB  out-SNR: BP  8.87 WT 10.22 EKF 13.49 EKS 14.80  (Se 0.99 PPV 1.00)
+rec 103 ma+bw   17.5 dB  out-SNR: BP 10.11 WT 11.91 EKF 14.83 EKS 15.98  (Se 0.99 PPV 1.00)
+rec 103 ma+bw   20.0 dB  out-SNR: BP 11.05 WT 13.37 EKF 16.03 EKS 17.09  (Se 0.99 PPV 1.00)
+Sweep finished in 185.2 s
+Saved results/experiment_results.mat
+{Unable to use a value of type matlab.graphics.axis.Axes as an index.
+
+Error in make_figures (line 29)
+    title(ax, ttl{i}, 'FontSize', 17); ylabel(ax, 'mV'); grid(ax, 'on'); xlim(ax, [20 26]);
+} 
+ERROR: MATLAB error Exit Status: 0x00000001
