@@ -1,4 +1,4 @@
-# Task 01 – ECG Denoising with Least Squares + Extended Kalman Filter
+#  ECG Denoising with Least Squares + Extended Kalman Filter
 
 **Problem.** Ambulatory and wearable ECGs are corrupted by muscle activity (EMG) and baseline
 wander from movement/breathing. Muscle noise overlaps the ECG spectrum, so a fixed band-pass
