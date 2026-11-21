@@ -23,12 +23,12 @@ Open MATLAB in this folder, then:
 
 | Step | Script | What it does | Time |
 |---|---|---|---|
-| 1 | `prepare_dataset` | Reads raw PhysioNet files in `data/raw/` → `data/ecg_dataset.mat` | ~5 s |
-| 2 | `tune_parameters` | Grid-search of EKF process noise on **TRAIN** data → `results/tuned_params.mat` | ~2 min |
-| 3 | `run_experiments` | **TEST**: SNR sweep, demo case, real record 105 → `results/experiment_results.mat`, `results/tables/snr_sweep_results.csv` | ~4 min |
+| 1 | `prepare_dataset` | Reads raw PhysioNet files in `data/raw/` → `data/ecg_dataset.mat` 
+| 2 | `tune_parameters` | Grid-search of EKF process noise on **TRAIN** data → `results/tuned_params.mat` 
+| 3 | `run_experiments` | **TEST**: SNR sweep, demo case, real record 105 → `results/experiment_results.mat`, `results/tables/snr_sweep_results.csv` 
 | 4 | `make_figures` | 10 figures, 1920×1080 PNG → `results/figures/` | ~30 s |
-| 5 | `make_videos` | 2 MP4 clips, 1920×1080 @ 30 fps → `results/videos/` (resumable: frames cached in `frames_*`) | ~5–8 min |
-| – | `demo_quick` | One noisy ECG, prints metrics and plots on screen (live demo; change noise type/SNR at the top) | ~5 s |
+| 5 | `make_videos` | 2 MP4 clips, 1920×1080 @ 30 fps → `results/videos/` (resumable: frames cached in `frames_*`) 
+| – | `demo_quick` | One noisy ECG, prints metrics and plots on screen (live demo; change noise type/SNR at the top)
 
 `main.m` runs steps 1–5 in sequence. `data/ecg_dataset.mat` is already included, so step 1
 is only needed if you want to rebuild it from the raw files. Step 2 is optional: its result is
