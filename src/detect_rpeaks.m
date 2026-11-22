@@ -1,9 +1,10 @@
 function pk = detect_rpeaks(x, fs)
 %DETECT_RPEAKS  Simple Pan-Tompkins style R-peak detector (works on noisy ECG).
-%   1) band-pass 5-15 Hz (QRS energy band)   2) derivative, squaring
-%   3) 150 ms moving-window integration       4) peak picking with a
-%   refractory period of 250 ms and a robust threshold
-%   5) refine each detection to the largest |amplitude| in the 5-30 Hz signal.
+% 1) band-pass 5-15 Hz (QRS energy band)  
+% 2) derivative, squaring
+% 3) 150 ms moving-window integration      
+% 4) peak picking with a refractory period of 250 ms and a robust threshold
+% 5) refine each detection to the largest |amplitude| in the 5-30 Hz signal.
 
     x = x(:);
     [b, a] = butter(3, [5 15]/(fs/2), 'bandpass');

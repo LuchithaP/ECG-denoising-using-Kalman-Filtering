@@ -1,6 +1,5 @@
 %% DEMO_QUICK  Interactive demo: denoise one noisy ECG and show the result.
-%  Good for a live "MATLAB demonstration" in the video.  Change the three
-%  settings below and press Run.
+%   Change the three settings below and press Run.
 
 noiseType = 'ma+bw';   % 'ma' (muscle), 'bw' (baseline wander) or 'ma+bw'
 snrDb     = 5;         % input SNR in dB (PhysioNet nst definition)

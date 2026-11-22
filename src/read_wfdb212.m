@@ -2,9 +2,7 @@ function [sig, fs, info] = read_wfdb212(recPath)
 %READ_WFDB212  Read a PhysioNet WFDB record stored in format 212.
 %   [sig, fs, info] = read_wfdb212('data/raw/100') reads 100.hea / 100.dat
 %   and returns the signals in physical units (mV), one column per channel.
-%
-%   Format 212: every 3 bytes hold two 12-bit two's-complement samples
-%   (channel 1 and channel 2 interleaved).  No WFDB toolbox is required.
+
 
     % ---------- parse header (.hea) ----------
     fid = fopen([recPath '.hea'], 'r');

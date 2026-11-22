@@ -1,7 +1,5 @@
 function [C, f] = fig_style(makeFig)
-%FIG_STYLE  Common colours and a 1920x1080 (16:9) figure for slides/video.
-%   Colour-blind-safe palette (Okabe-Ito).  Large fonts and thick lines so
-%   that every plot stays readable when shown full-screen in a video.
+
     C.clean = [0 0 0];
     C.noisy = [0.62 0.62 0.62];
     C.bp    = [0 158 115]/255;     % band-pass  (green)
